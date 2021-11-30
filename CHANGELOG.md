@@ -15,3 +15,7 @@ Change completion for `const` so that it suggests valid block tags.
 ## 0.1.3
 
 Change completions for `class` and `typescript class` so that they list class `@remarks` prompts as bulleted list.
+
+## O.1.4
+
+Add icon and repository link.
