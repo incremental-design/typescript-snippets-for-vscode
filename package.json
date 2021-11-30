@@ -1,0 +1,24 @@
+{
+  "name": "typescript-snippets",
+  "displayName": "Typescript Snippets",
+  "description": "Snippets for Typescript classes, TSdoc Blocks and TSdoc Tags.",
+  "version": "0.1.3",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "publish-extension": "vsce publish --baseContentUrl https://raw.githubusercontent.com/incremental-design/app-stencils/ajay-dev/libs/snippets/vscode/typescript-snippets-for-vscode --baseImagesUrl https://raw.githubusercontent.com/incremental-design/app-stencils/ajay-dev/libs/snippets/vscode/typescript-snippets-for-vscode"
+  },
+  "publisher": "designbyajay"
+}

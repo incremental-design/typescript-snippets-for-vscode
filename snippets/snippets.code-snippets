@@ -1,0 +1,135 @@
+{
+  "Typescript Class": {
+    "prefix": [
+      "typescript class"
+    ],
+    "body": "/**\n * ${1:What is the class's single responsibility?}${2:\n * @remarks}\n *\n * ${3:When should use use the class? What performance benefits, functionality, or other magical power does it confer upon you?}\n *\n * * ${4:When shouldn't you use the class?}\n *\n * * ${5:What states does this class furnish?}\n *\n * * ${6:What behaviors does this class furnish?}\n *\n * * ${7:Can you inject dependencies into this class?}\n *\n * * ${8:Are there any situations where it makes sense to extend this class, rather than inject dependencies into it?}\n *\n * * ${9:How does the code in this class work?}\n *${10:\n * @example\n * ```typescript\n *    //example of how to use this class here\n * ```\n *}\n * ${11:@alpha }${12:@beta }${13:@eventProperty }${14:@experimental }${15:@internal }${16:@override }${17:@packageDocumentation }${18:@public }${19:@readonly }${20:@sealed }${21:@virtual}\n */\nclass ${22:ClassName} {\n\n\t// !Static Methods\n\n\t// !Private (and/or readonly) Properties\n\n\t// !Constructor Function\n\tconstructor(){}\n\n\t// !Getters and Setters\n\n\t// !Public Accessor Methods\n\n\t// !Public Instance Methods\n\n\t// !Private Subroutines\n\n}",
+    "description": "Stub a Typescript Class."
+  },
+  "TSdoc Class Section": {
+    "prefix": [
+      "class"
+    ],
+    "body": "/**\n * ${1:What is the class's single responsibility?}${2:\n * @remarks}\n *\n * ${3:When should use use the class? What performance benefits, functionality, or other magical power does it confer upon you?}\n *\n * * ${4:When shouldn't you use the class?}\n *\n * * ${5:What states does this class furnish?}\n *\n * * ${6:What behaviors does this class furnish?}\n *\n * * ${7:Can you inject dependencies into this class?}\n *\n * * ${8:Are there any situations where it makes sense to extend this class, rather than inject dependencies into it?}\n *\n * * ${9:How does the code in this class work?}\n *${10:\n * @example\n * ```typescript\n *    //example of how to use this class here\n * ```\n *}\n * ${11:@alpha }${12:@beta }${13:@eventProperty }${14:@experimental }${15:@internal }${16:@override }${17:@packageDocumentation }${18:@public }${19:@readonly }${20:@sealed }${21:@virtual}\n */",
+    "description": "Stub the TSdoc Block for a Typescript class."
+  },
+  "TSdoc Method Section": {
+    "prefix": [
+      "method"
+    ],
+    "body": "/**\n * ${1:What does this function or method do?}\n *${2:\n * param} ${3:name}${4: - description}\n *${5:\n * @returns} ${6:type and meaning of return value}\n * ${7:@alpha }${8:@beta }${9:@eventProperty }${10:@experimental }${11:@internal }${12:@override }${13:@packageDocumentation }${14:@public }${15:@readonly }${16:@sealed }${17:@virtual}\n*/",
+    "description": "Document a function or method."
+  },
+  "TSdoc Variable Section": {
+    "prefix": [
+      "const"
+    ],
+    "body": "/**\n * ${1:Summary}\n *\n * ${2:Block Tags (i.e. @decorator, @deprecated, @defaultValue, @example, @inheritDoc, @privateRemarks, @remarks, @see)}\n *\n * ${3:@alpha }${4:@beta }${5:@eventProperty }${6:@experimental }${7:@internal }${8:@override }${9:@packageDocumentation }${10:@public }${11:@readonly }${12:@sealed }${13:@virtual}\n*/",
+    "description": "Document a variable."
+  },
+  "TSdoc @decorator Tag": {
+    "prefix": [
+      "decorator"
+    ],
+    "body": "@decorator `${1:decorator expression}`",
+    "description": "List the ECMAscript decorators utilized by this class or function."
+  },
+  "TSdoc @deprecated Tag": {
+    "prefix": [
+      "deprecated"
+    ],
+    "body": "@deprecated Use ${1|{@link class\\, function\\, variable or URL \\| Description},{@link class\\, function\\, variable or URL},@link class\\, function\\, variable or URL|} instead.",
+    "description": "Indicate that this class, function or variable will be removed and replaced with something else."
+  },
+  "TSdoc @defaultValue Tag": {
+    "prefix": [
+      "defaultValue"
+    ],
+    "body": "@defaultValue `${1:value}`",
+    "description": "List the default value of a member of a class or interface."
+  },
+  "TSdoc @example Tag": {
+    "prefix": [
+      "example"
+    ],
+    "body": "\n*${1: @example\n* ```typescript\n*    //example of how to use this class here\n* ```\n*}",
+    "description": "Show an example of how to use this class, method, or variable."
+  },
+  "TSdoc @inheritDoc Tag": {
+    "prefix": [
+      "inheritDoc"
+    ],
+    "body": "{@inheritDoc ${1:Class, Method or Variable from which to inherit TSdoc blocks.}}",
+    "description": "Grab the @remarks, @param, @typeParam, and @returns blocks from of another TSdoc block and place them in this TSdoc block."
+  },
+  "TSdoc @label Tag": {
+    "prefix": [
+      "label"
+    ],
+    "body": "{@label ${1:LABEL}}",
+    "description": "Add an inline label to group this TSdoc block with others that also have the same label."
+  },
+  "TSdoc @link Tag": {
+    "prefix": [
+      "link"
+    ],
+    "body": "${1|{@link class\\, function\\, variable or URL \\| Description},{@link class\\, function\\, variable or URL},@link class\\, function\\, variable\\, or URL|}",
+    "description": "Add an inline link to another class, function, variable or URL."
+  },
+  "TSdoc @param Tag": {
+    "prefix": [
+      "param"
+    ],
+    "body": "\n* @param ${1:parameterName} - ${2:Describe what the parameter affects, and what it defaults to.}\n*",
+    "description": "List the types and ranges of values you can supply to a parameter."
+  },
+  "TSdoc @privateRemarks Tag": {
+    "prefix": [
+      "privateRemarks"
+    ],
+    "body": "\n* @privateRemarks\n*\n* ${1:Anything you want to omit from any auto-generated documentation.}\n*",
+    "description": "Hide anything you don't want to include in auto-generated documentation, but do want to include in a TSdoc block."
+  },
+  "TSdoc @remarks Tag": {
+    "prefix": [
+      "remarks"
+    ],
+    "body": "\n* @remarks\n*\n* ${1:Any explanation of implementation details, reasoning or other long-form text.}\n*",
+    "description": "Add the implementation details, reasoning or other long-form description of this class or function."
+  },
+  "TSdoc @returns Tag": {
+    "prefix": [
+      "returns"
+    ],
+    "body": "\n* @returns ${1:Description of values you can expect from this function}\n*",
+    "description": "Describe the types and values that this function returns."
+  },
+  "TSdoc @see Tag": {
+    "prefix": [
+      "see"
+    ],
+    "body": "\n* @see ${1|{@link class\\, function\\, variable or URL \\| Description},{@link class\\, function\\, variable or URL},@link class\\, function\\, variable\\, or URL|}",
+    "description": "link to related classes, functions, variables, or URLs."
+  },
+  "TSdoc @throws Tag": {
+    "prefix": [
+      "throws"
+    ],
+    "body": "\n* @throws ${1|{@link errorName},@link errorName,errorName|}\n* ${2:Explain why this error is thrown.}\n*",
+    "description": "List the types of errors this class or function throws, and why it throws them."
+  },
+  "TSdoc @typeParam Tag": {
+    "prefix": [
+      "typeParam"
+    ],
+    "body": "\n* @typeParam ${1:name of type parameter} - ${2:list of types that the type parameter should take}\n*",
+    "description": "List the types that a generic accepts."
+  },
+  "TSdoc Modifier Tags": {
+    "prefix": [
+      "mod"
+    ],
+    "body": "\n* ${1:@alpha }${2:@beta }${3:@eventProperty }${4:@experimental }${5:@internal }${6:@override }${7:@packageDocumentation }${8:@public }${9:@readonly }${10:@sealed }${11:@virtual}\n*",
+    "description": "Add all of the TSdoc modifier tags to a TSdoc block. Make sure you place this on the last line of the TSdoc block."
+  },
+}
