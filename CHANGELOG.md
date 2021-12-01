@@ -19,3 +19,7 @@ Change completions for `class` and `typescript class` so that they list class `@
 ## O.1.4
 
 Add icon and repository link.
+
+## 0.1.5
+
+Fix typo in completion for `method`
