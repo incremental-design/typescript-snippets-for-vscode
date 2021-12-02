@@ -23,3 +23,7 @@ Add icon and repository link.
 ## 0.1.5
 
 Fix typo in completion for `method`
+
+## 0.1.6
+
+Change icon.
