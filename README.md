@@ -337,24 +337,18 @@ This extension [contributes the `snippets/snippets.code-snippets` file to VScode
 
 See [`CHANGELOG.md`](https://github.com/incremental-design/app-stencils/blob/ajay-dev/libs/snippets/vscode/typescript-snippets-for-vscode/typescript-snippets/CHANGELOG.md)
 
-## Contribute to Project Name:
+## Contribute to Typescript Snippets:
 
-To contribute to this project, you need to set up the `app-stencils` monorepo, as follows:
+### Repository Structure:
 
-### Setup:
-
-The code for this extension lives in the [incremental.design/app-stencils](https://github.com/incremental-design/app-stencils) monorepo. To contribute to this extension's code, you need to set up this monorepo. See [`CONTRIBUTE.md`](https://github.com/incremental-design/app-stencils/blob/ajay-dev/CONTRIBUTE.md) to learn how.
-
-#### Repository Structure:
-
-| File or Folder                  | What does it do?                                                                                               | When should you modify it?                                                                 |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
-| .readme/                        | Contains all of the images used in this README. Note that everything in this folder is versioned with Git LFS. | Whenever you need to add or change the images used in this README.                         |
-| snippets/snippets.code-snippets | Contains all of the [snippets](#snippets) that this extension provides.                                        | Whenever you need to change any of the [snippets](#snippets) that this extension provides. |
-| .vscodeignore                   | Lists the files that will not be included in this extension when its' published.                               | Never.                                                                                     |
-| CHANGELOG.md                    | Lists the changes that each version introduces.                                                                | Whenever you increment this package's version in [`package.json`](./package.json)          |
-| package.json                    | Describes the contents, scripts, and configuration details of this extension.                                  | Whenever you need to release a new version of this package.                                |
-| README.md                       | This file.                                                                                                     | Whenever you add or change a snippet in this extension.                                    |
+| File or Folder                    | What does it do?                                                                                               | When should you modify it?                                                                 |
+| :-------------------------------- | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| `.readme/`                        | Contains all of the images used in this README. Note that everything in this folder is versioned with Git LFS. | Whenever you need to add or change the images used in this README.                         |
+| `snippets/snippets.code-snippets` | Contains all of the [snippets](#snippets) that this extension provides.                                        | Whenever you need to change any of the [snippets](#snippets) that this extension provides. |
+| `.vscodeignore`                   | Lists the files that will not be included in this extension when its' published.                               | Never.                                                                                     |
+| `CHANGELOG.md`                    | Lists the changes that each version introduces.                                                                | Whenever you increment this package's version in [`package.json`](./package.json)          |
+| `package.json`                    | Describes the contents, scripts, and configuration details of this extension.                                  | Whenever you need to release a new version of this package.                                |
+| `README.md`                       | This file.                                                                                                     | Whenever you add or change a snippet in this extension.                                    |
 
 ### Develop:
 
@@ -362,23 +356,19 @@ See [Visual Studio Code ➝ Create your own snippets](https://code.visualstudio.
 
 ### Test:
 
-1. Open the `libs/snippets/vscode/typescript-snippets-for-vscode` folder in the current VScode window.
-
-   ![Open the extension folder in the current window.](.readme/test-extension-1.gif)
-
-2. Hit [`F5`]() to load the snippets in a new VScode window.
+1. Open this project in VScode, then press [`F5`]() to load the snippets in a new VScode window.
 
    ![Load snippets in a new VScode window.](.readme/test-extension-2.gif)
 
-3. Create a new Typescript file, or open an existing one.
+2. Create a new Typescript file, or open an existing one.
 
    ![Create a new file and set syntax to Typescript.](.readme/test-extension-3.gif)
 
-4. Test the snippets you just made.
+3. Test the snippets you just made.
 
    ![Test the `typescript-class` snippet.](.readme/test-extension-4.gif)
 
-5. Whenever you save changes to the snippets, hit the 'reload' button in the debugger tray to send the changes to the VScode window.
+4. Whenever you save changes to the snippets, hit the 'reload' button in the debugger tray to send the changes to the VScode window.
 
    ![Press the reload button.](.readme/test-extension-5.gif)
 
