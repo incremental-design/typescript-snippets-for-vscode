@@ -381,5 +381,5 @@ See [Visual Studio Code ➝ Create your own snippets](https://code.visualstudio.
 
   then `vsce login <publisher-name>` and supply the personal access token you just got.
 
-  then increment the version number in `package.json`, add an entry for that vesion number ot `CHANGELOG.md` and finally `yarn publish-extension`.
+  then increment the version number in `package.json`, add an entry for that vesion number ot `CHANGELOG.md` and finally `vsce publish`.
  -->

@@ -34,4 +34,8 @@ Change completion for `link`, `see`, `deprecated`, `throws`
 
 ## 0.1.8
 
-Change completion for `method`
+Change completion for `see`.
+
+## 0.1.9
+
+change completion for `method`
