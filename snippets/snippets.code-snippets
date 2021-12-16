@@ -17,7 +17,7 @@
     "prefix": [
       "method"
     ],
-    "body": "/**\n * ${1:What does this function or method do?}\n *${2:\n * @param} ${3:name}${4: - description}\n *${5:\n * @returns} ${6:type and meaning of return value}\n * ${7:@alpha }${8:@beta }${9:@eventProperty }${10:@experimental }${11:@internal }${12:@override }${13:@packageDocumentation }${14:@public }${15:@readonly }${16:@sealed }${17:@virtual}\n*/",
+    "body": "/**\n * ${1:What does this function or method do?}\n *${2:\n * @param} ${3:name} - ${4:description}\n *${5:\n * @returns} ${6:type and meaning of return value}\n * ${7:@alpha }${8:@beta }${9:@eventProperty }${10:@experimental }${11:@internal }${12:@override }${13:@packageDocumentation }${14:@public }${15:@readonly }${16:@sealed }${17:@virtual}\n*/",
     "description": "Document a function or method."
   },
   "TSdoc Variable Section": {

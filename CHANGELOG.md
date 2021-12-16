@@ -30,4 +30,8 @@ Change icon.
 
 ## 0.1.7
 
-Change completion for `@link`, `@see`, `@deprecated`, `@throws`
+Change completion for `link`, `see`, `deprecated`, `throws`
+
+## 0.1.8
+
+Change completion for `method`
