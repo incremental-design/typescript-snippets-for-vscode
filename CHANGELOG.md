@@ -27,3 +27,7 @@ Fix typo in completion for `method`
 ## 0.1.6
 
 Change icon.
+
+## 0.1.7
+
+Change completion for `@link`, `@see`, `@deprecated`, `@throws`
