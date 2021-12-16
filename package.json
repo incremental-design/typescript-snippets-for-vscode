@@ -4,7 +4,7 @@
   "description": "Snippets for Typescript classes, TSdoc Blocks and TSdoc Tags.",
   "repository": "https://github.com/incremental-design/typescript-snippets-for-vscode",
   "icon": ".readme/icon.png",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "engines": {
     "vscode": "^1.62.0"
   },
