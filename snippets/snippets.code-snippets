@@ -38,7 +38,7 @@
     "prefix": [
       "deprecated"
     ],
-    "body": "@deprecated Use ${1|{@link class\\, function\\, variable or URL \\| Description},{@link class\\, function\\, variable or URL},@link class\\, function\\, variable or URL|} instead.",
+    "body": "@deprecated Use {@link ${1:link to class or URL}${2: | }${3:Description}}$0 instead.",
     "description": "Indicate that this class, function or variable will be removed and replaced with something else."
   },
   "TSdoc @defaultValue Tag": {
@@ -73,7 +73,7 @@
     "prefix": [
       "link"
     ],
-    "body": "${1|{@link class\\, function\\, variable or URL \\| Description},{@link class\\, function\\, variable or URL},@link class\\, function\\, variable\\, or URL|}",
+    "body": "{@link ${1:link to class or URL}${2: | }${3:Description}}$0",
     "description": "Add an inline link to another class, function, variable or URL."
   },
   "TSdoc @param Tag": {
@@ -108,14 +108,14 @@
     "prefix": [
       "see"
     ],
-    "body": "\n* @see ${1|{@link class\\, function\\, variable or URL \\| Description},{@link class\\, function\\, variable or URL},@link class\\, function\\, variable\\, or URL|}",
+    "body": "\n* @see {@link ${1:link to class or URL}${2: | }${3:Description}}$0",
     "description": "link to related classes, functions, variables, or URLs."
   },
   "TSdoc @throws Tag": {
     "prefix": [
       "throws"
     ],
-    "body": "\n* @throws ${1|{@link errorName},@link errorName,errorName|}\n* ${2:Explain why this error is thrown.}\n*",
+    "body": "\n* @throws {@link ${1:Error Name}}\n* ${0:Explain why this error is thrown.}\n*",
     "description": "List the types of errors this class or function throws, and why it throws them."
   },
   "TSdoc @typeParam Tag": {
