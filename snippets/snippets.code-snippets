@@ -108,7 +108,7 @@
     "prefix": [
       "see"
     ],
-    "body": "\n* @see {@link ${1:link to class or URL}${2: | }${3:Description}}$0",
+    "body": "\n* @see ${1:link to class or URL}$0",
     "description": "link to related classes, functions, variables, or URLs."
   },
   "TSdoc @throws Tag": {
