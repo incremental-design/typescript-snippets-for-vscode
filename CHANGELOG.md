@@ -38,4 +38,8 @@ Change completion for `see`.
 
 ## 0.1.9
 
-change completion for `method`
+Change completion for `method`
+
+## 0.1.10
+
+Change completion for `class`
